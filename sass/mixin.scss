@@ -1,0 +1,67 @@
+@mixin block-info ($grid-colum-start:1, $grid-column-end:1, $grid-row-start:1, $grid-row-end: 3) {
+    padding: 20px;
+    grid-column-start: $grid-colum-start;
+    grid-column-end: $grid-column-end;
+    grid-row-start: $grid-row-start;
+    grid-row-end: $grid-row-end;
+}
+
+@mixin button ($color:#48974c, $background:white, $color-hover:white, $background-hover:#48974c) {
+    color: $color;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+    border: #48974c solid 1px;
+    transition: 0.5s;
+    background-color: $background;
+
+    &:hover {
+        background-color: $background-hover;
+        color: $color-hover;
+    }
+}
+
+@mixin social {
+    @media screen and (max-width:1000px) {
+        flex-direction:column;
+        & li{
+            margin-top: 10px;
+        }
+    }
+}
+@mixin gallery{
+    @media screen and (max-width:1024px) {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@mixin footer-menu{
+    @media screen and (max-width:1300px) {
+        display: none;
+    }
+}
+@mixin button-input{
+    @media screen and (max-width:450px) {
+        padding: 10px;
+    }
+}
+@mixin icons(){
+    @media screen and (max-width:800px) {
+        height: 15px;
+        width: 15px;
+    }
+    @media screen and (max-width:400px) {
+        height: 10px;
+        width: 10px;
+    }
+}
+@mixin margin-icons{
+    @media screen and (max-width: 400px) {
+       margin-left: 5px; 
+    }
+}
+@mixin banner {
+    @media screen and (max-width:500px) {
+        flex-direction: column;
+    }
+}

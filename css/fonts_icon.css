@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'icomoon';
+  src:
+    url('../fonts/icomoon.ttf?l3xd5s') format('truetype'),
+    url('../fonts/icomoon.woff?l3xd5s') format('woff'),
+    url('../fonts/icomoon.svg?l3xd5s#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\e900";
+  color: #ccc;
+}
+.icon-facebook:hover::before{
+  color: #48974c;
+}
+.icon-inst:before {
+  content: "\e901";
+  color: #ccc;
+}
+.icon-inst:hover::before{
+  color: #48974c;
+}
+.icon-ok:before {
+  content: "\e902";
+  color: #ccc;
+}
+.icon-ok:hover::before{
+  color: #48974c;
+}
+.icon-twitter:before {
+  content: "\e903";
+  color: #ccc;
+}
+.icon-twitter:hover::before{
+  color: #48974c;
+}
+.icon-vk:before {
+  content: "\e904";
+  color: #ccc;
+}
+.icon-vk:hover::before{
+  color: #48974c;
+}

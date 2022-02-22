@@ -1,0 +1,24 @@
+@font-face {
+    font-family:'Corma-bold';
+    src: url('Corma-bold'),
+    url('../text_fonts/Cormorant-Bold1.ttf') format('ttf'),
+    url('../text_fonts/CormorantInfant-Bold1.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family:'Corma-light';
+    src: url('Corma-light'),
+    url('../text_fonts/CormorantInfant-LightItalic.ttf') format('ttf'),
+    url('../text_fonts/CormorantInfant-LightItalic.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family:'Sans-regular';
+    src: url('Sans-regular'),
+    url('../text_fonts/PTSans-Regular.ttf') format('ttf'),
+    url('../text_fonts/PTSans-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
